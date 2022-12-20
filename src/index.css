@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .table_cell {
+    @apply py-3 px-2 text-center min-h-[87px] flex items-center justify-center md:min-h-[60px]
+  }
+}
